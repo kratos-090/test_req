@@ -14,6 +14,9 @@ fastify.route({
         console.log(req.ips)
         console.log(req.hostname)
         console.log(req.protocol)
+        res.send({
+            message: 'Hello World'
+        })
     }
 })
 
